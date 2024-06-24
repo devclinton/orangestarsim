@@ -1,0 +1,98 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "orangestarsim"
+dynamic = ["version"]
+description = ''
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Clinton Collins", email = "clinton.collins@gatesfoundation.org" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+  "starsim",
+  "orange3"
+]
+
+[project.urls]
+Documentation = "https://github.com/Clinton Collins/orangestarsim#readme"
+Issues = "https://github.com/Clinton Collins/orangestarsim/issues"
+Source = "https://github.com/Clinton Collins/orangestarsim"
+
+[project.entry-points."orange.widgets"]
+BernoulliDistribution = "orangestarsim.distributions.bernoulli"
+ConstantDistribution = "orangestarsim.distributions.constant"
+ExponentialDistribution = "orangestarsim.distributions.expon"
+LogNormalExplicitDistribution = "orangestarsim.distributions.lognormal_ex"
+LogNormalImplicitDistribution = "orangestarsim.distributions.lognormal_im"
+NormalDistribution = "orangestarsim.distributions.normal"
+PoissonDistribution = "orangestarsim.distributions.poisson"
+RandIntDistribution = "orangestarsim.distributions.randint"
+RandomDistrubition = "orangestarsim.distributions.random"
+UniformDistribution = "orangestarsim.distributions.uniform"
+WeibullDistribution = "orangestarsim.distributions.weibull"
+Births = "orangestarsim.demographics.births"
+Deaths = "orangestarsim.demographics.deaths"
+Pregnancy = "orangestarsim.demographics.pregnancy"
+CampaignScreening = "orangestarsim.interventions.campaign_screening"
+CampaignVx = "orangestarsim.interventions.campaign_vx"
+RoutineScreening = "orangestarsim.interventions.routine_screening"
+RoutineTriage = "orangestarsim.interventions.routine_triage"
+FixedTreatment = "orangestarsim.interventions.fixed_treatment"
+RoutineVx = "orangestarsim.interventions.routine_vx"
+People = "orangestarsim.people"
+RandomNetwork = "orangestarsim.network.random"
+Results = "orangestarsim.results"
+Sim = "orangestarsim.sim"
+Sir = "orangestarsim.diseases.sir"
+
+#Sis = "orangestarsim.diseases.sis"
+
+
+[tool.hatch.version]
+path = "src/orangestarsim/__about__.py"
+
+[tool.hatch.envs.types]
+extra-dependencies = [
+  "mypy>=1.0.0",
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/orangestarsim tests}"
+
+[tool.coverage.run]
+source_pkgs = ["orangestarsim", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/orangestarsim/__about__.py",
+]
+
+[tool.coverage.paths]
+orangestarsim = ["src/orangestarsim", "*/orangestarsim/src/orangestarsim"]
+tests = ["tests", "*/orangestarsim/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
+
+# add our icons to our package data
+[tool.hatch.package-data]
+orangestarsim = ["icons/*"]

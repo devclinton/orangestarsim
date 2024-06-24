@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="128" viewBox="0 0 128 128">
+<rect x="-12.8" y="-12.8" width="153.6" height="153.6" fill="rgb(0%, 0%, 0%)" fill-opacity="0.5"/>
+<path fill-rule="nonzero" fill="rgb(0%, 0%, 100%)" fill-opacity="1" d="M 4 4 L 112 64 C 112 90.507812 90.507812 112 64 112 C 37.492188 112 16 90.507812 16 64 C 16 37.492188 37.492188 16 64 16 C 90.507812 16 112 37.492188 112 64 "/>
+<path fill-rule="nonzero" fill="rgb(0%, 0%, 0%)" fill-opacity="0.3" d="M 4 4 L 112 64 C 112 90.507812 90.507812 112 64 112 C 37.492188 112 16 90.507812 16 64 C 16 37.492188 37.492188 16 64 16 C 90.507812 16 112 37.492188 112 64 "/>
+<path fill-rule="nonzero" fill="rgb(50%, 50%, 50%)" fill-opacity="1" d="M 76 40 C 76 46.628906 70.628906 52 64 52 C 57.371094 52 52 46.628906 52 40 C 52 33.371094 57.371094 28 64 28 C 70.628906 28 76 33.371094 76 40 "/>
+<path fill-rule="nonzero" fill="rgb(0%, 0%, 0%)" fill-opacity="0.3" d="M 76 40 C 76 46.628906 70.628906 52 64 52 C 57.371094 52 52 46.628906 52 40 C 52 33.371094 57.371094 28 64 28 C 70.628906 28 76 33.371094 76 40 "/>
+<path fill-rule="nonzero" fill="rgb(50%, 50%, 50%)" fill-opacity="1" d="M 52 64 C 52 70.628906 46.628906 76 40 76 C 33.371094 76 28 70.628906 28 64 C 28 57.371094 33.371094 52 40 52 C 46.628906 52 52 57.371094 52 64 "/>
+<path fill-rule="nonzero" fill="rgb(0%, 0%, 0%)" fill-opacity="0.3" d="M 52 64 C 52 70.628906 46.628906 76 40 76 C 33.371094 76 28 70.628906 28 64 C 28 57.371094 33.371094 52 40 52 C 46.628906 52 52 57.371094 52 64 "/>
+<path fill-rule="nonzero" fill="rgb(50%, 50%, 50%)" fill-opacity="1" d="M 100 64 C 100 70.628906 94.628906 76 88 76 C 81.371094 76 76 70.628906 76 64 C 76 57.371094 81.371094 52 88 52 C 94.628906 52 100 57.371094 100 64 "/>
+<path fill-rule="nonzero" fill="rgb(0%, 0%, 0%)" fill-opacity="0.3" d="M 100 64 C 100 70.628906 94.628906 76 88 76 C 81.371094 76 76 70.628906 76 64 C 76 57.371094 81.371094 52 88 52 C 94.628906 52 100 57.371094 100 64 "/>
+<path fill-rule="nonzero" fill="rgb(50%, 50%, 50%)" fill-opacity="1" d="M 76 88 C 76 94.628906 70.628906 100 64 100 C 57.371094 100 52 94.628906 52 88 C 52 81.371094 57.371094 76 64 76 C 70.628906 76 76 81.371094 76 88 "/>
+<path fill-rule="nonzero" fill="rgb(0%, 0%, 0%)" fill-opacity="0.3" d="M 76 88 C 76 94.628906 70.628906 100 64 100 C 57.371094 100 52 94.628906 52 88 C 52 81.371094 57.371094 76 64 76 C 70.628906 76 76 81.371094 76 88 "/>
+<path fill="none" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(0%, 0%, 100%)" stroke-opacity="1" stroke-miterlimit="10" d="M 64 40 L 40 64 "/>
+<path fill="none" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(0%, 0%, 100%)" stroke-opacity="1" stroke-miterlimit="10" d="M 40 64 L 88 64 "/>
+<path fill="none" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(0%, 0%, 100%)" stroke-opacity="1" stroke-miterlimit="10" d="M 88 64 L 64 88 "/>
+<path fill="none" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(0%, 0%, 100%)" stroke-opacity="1" stroke-miterlimit="10" d="M 64 88 L 64 40 "/>
+</svg>
